@@ -2,7 +2,7 @@
 @section('content')
 <body>
             <form action="{{url('post-register')}}" method="POST" id="regForm">
-            <h2>Welcome, pls register</h2>
+            <h2>Register</h2>
             @csrf
             <div class="box-body">
                 <div class="row">

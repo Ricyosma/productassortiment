@@ -1,9 +1,6 @@
 @extends('layouts.admin')
 @section('content')
     <body>
-    @if ( auth()->user())
-    <h1>hoi</h1>
-    @endif
         <div class="row justify-content-between">
             <h1 class="dashboard-title col-12">Dashboard</h1>
             <div class="col-12 admin-column">

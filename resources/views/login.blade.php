@@ -3,7 +3,7 @@
 <body>
 
     <form action="{{url('post-login')}}" method="POST" id="logForm">
-        <h2>Welcome, pls login</h2>
+        <h2>Login</h2>
     @csrf
         <div class="box-body">
             <div class="row">
